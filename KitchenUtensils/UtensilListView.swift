@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  UtensilListView.swift
 //  KitchenUtensils
 //
 //  Created by Monica Kennedy on 2025-08-30.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct UtensilListView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -20,5 +20,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    UtensilListView()
 }
