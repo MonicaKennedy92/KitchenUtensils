@@ -9,7 +9,7 @@ import SwiftUI
 import PhotosUI
 import SwiftData
 
-struct AddUtensilView: View {
+struct AddNewUtensilsView: View {
     @Environment(\.dismiss) private var dismiss
     @StateObject private var viewModel: AddUtensilViewModel
     
@@ -117,5 +117,5 @@ struct AddUtensilView: View {
     let config = ModelConfiguration(isStoredInMemoryOnly: true)
     let container = try! ModelContainer(for: KitchenUtensilModel.self, configurations: config)
     
-    return AddUtensilView(modelContext: container.mainContext)
+    return AddNewUtensilsView(modelContext: container.mainContext)
 }
